@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Art of Digital Design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <div class="logo" data-target="about">AODD</div>
+    <ul class="nav-links">
+      <li><button class="nav-btn" data-target="about">About us</button></li>
+      <li><button class="nav-btn" data-target="links">Links</button></li>
+      <li><button class="nav-btn" data-target="projects">Projects</button></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ABOUT -->
+<section id="about" class="page about-page">
+  <div class="bg-layer">
+    <div class="blob blob-center"></div>
+    <div class="blob blob-right"></div>
+    <div class="blob blob-left"></div>
+    <p class="faded-title faded-right">ART OF DIGITAL design</p>
+    <p class="faded-title faded-left">ART OF DIGITAL design</p>
+  </div>
+
+  <div class="about-content">
+    <p class="overline">online presentation</p>
+
+    <div class="divider-line">
+      <span class="line"></span><span class="dot"></span><span class="line"></span>
+    </div>
+
+    <h1 class="hero-title">ART OF DIGITAL</h1>
+    <h1 class="hero-title hero-italic">design</h1>
+
+    <div class="divider-line">
+      <span class="line"></span><span class="dot"></span><span class="line"></span>
+    </div>
+
+    <p class="hero-sub">
+      Come join our online meeting session with
+      <span class="pink">Aria Bow</span> — a professional digital designer
+      with 10 years of experience — to learn more about the art of modern digital design.
+    </p>
+
+    <button class="see-more-btn" data-target="links">
+      <span class="shimmer"></span>
+      <span>See More</span>
+      <span class="arrow">→</span>
+    </button>
+  </div>
+</section>
+
+<!-- LINKS -->
+<section id="links" class="page links-page">
+  <div class="bg-layer">
+    <div class="soft-blob soft-left"></div>
+    <div class="soft-blob soft-right"></div>
+  </div>
+
+  <div class="section-header">
+    <div class="header-pill">
+      <h2>Events <span class="pink">·</span> schedule-links</h2>
+    </div>
+  </div>
+
+  <div class="links-grid">
+    <!-- Events -->
+    <div class="card card-events">
+      <div class="card-glow glow-tr"></div>
+      <p class="card-label">Upcoming Events</p>
+
+      <div class="event">
+        <p class="event-title">Aria Bow — Art of digital design</p>
+        <div class="event-meta">
+          <span>June 15th, 12:00pm EDT</span>
+          <a href="#" class="pink-link">→ zoom.link</a>
+        </div>
+      </div>
+
+      <div class="event">
+        <p class="event-title">Online discussion with Professor Melanie Kellson &amp; Jess Brown</p>
+        <div class="event-meta">
+          <span>June 17th, 14:00pm EDT</span>
+          <a href="#" class="pink-link">→ zoom.link</a>
+        </div>
+      </div>
+
+      <div class="event event-featured">
+        <p class="event-title">Live Stream — Web design lecture at UMC University</p>
+        <div class="event-meta">
+          <span>June 24th, 11:00pm EDT</span>
+          <a href="#" class="pink-link">→ zoom.link</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contacts -->
+    <div class="card card-contacts">
+      <div class="card-glow glow-bl"></div>
+      <p class="card-label">Our Contacts</p>
+
+      <div class="contact-row"><span>London (UK)</span><span class="pink">+3 (617) 72518</span></div>
+      <div class="contact-row"><span>Hong Kong (ROC)</span><span class="pink">+19 (087) 7542</span></div>
+      <div class="contact-row"><span>Tokyo (Japan)</span><span class="pink">7 (8963) 7369</span></div>
+      <div class="contact-row"><span>Kyiv (Ukraine)</span><span class="pink">+38 (0282) 777</span></div>
+
+      <div class="owner">
+        <p class="owner-label">Owner Direct</p>
+        <p>Gwen Stacy <span class="pink">+87 (729) 72198</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="page projects-page">
+  <div class="bg-layer">
+    <div class="soft-blob soft-center"></div>
+  </div>
+
+  <div class="section-header">
+    <div class="header-pill header-pill-lg">
+      <h2 class="gradient-text">Our Projects</h2>
+    </div>
+  </div>
+
+  <p class="projects-sub">A selection of recent work — click any piece to explore in detail.</p>
+
+  <div class="projects-grid">
+    <button class="project-card" data-src="PICUS/poster1.jpg">
+      <div class="project-frame">
+        <img src="PICUS/poster1.jpg" alt="Neon Identity" />
+        <div class="frame-border"></div>
+        <div class="frame-overlay"></div>
+        <div class="frame-caption">
+          <p class="tag">Brand · 2026</p>
+          <p class="title">Music Festival 2026</p>
+        </div>
+        <div class="zoom-icon">⤢</div>
+      </div>
+    </button>
+
+    <button class="project-card" data-src="PICUS/poster3.jpg">
+      <div class="project-frame">
+        <img src="PICUS/poster3.jpg" alt="Lumen UI Kit" />
+        <div class="frame-border featured"></div>
+        <div class="frame-overlay"></div>
+        <div class="frame-caption">
+          <p class="tag">Product · 2026</p>
+          <p class="title">Lumen UI Kit</p>
+        </div>
+        <div class="zoom-icon">⤢</div>
+      </div>
+    </button>
+
+    <button class="project-card" data-src="PICUS/poster2.jpg">
+      <div class="project-frame">
+        <img src="PICUS/poster2.jpg"
+        <div class="frame-border"></div>
+        <div class="frame-overlay"></div>
+        <div class="frame-caption">
+          <p class="tag">Web · 2026</p>
+          <p class="title">Neon Identity</p>
+        </div>
+        <div class="zoom-icon">⤢</div>
+      </div>
+    </button>
+  </div>
+
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox hidden">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
